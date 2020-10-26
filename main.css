@@ -1,0 +1,195 @@
+.home-words {
+  box-sizing: border-box;
+  margin: auto;
+
+  width: 60%;
+
+  border: 5px solid #ffff00;
+
+  padding: 10px;
+  text-align: center;
+  font-size-adjust: 500px;
+}
+
+body {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  top: auto;
+  flex-direction: row;
+  background-color: none;
+}
+.flex-cont > div {
+  border: 5px wheat;
+  height: 300px;
+  width: 250px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+/*
+.card1 {
+  border: 30px solid rgb(141, 87, 43) 20% round;
+  background-image: url(map.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  display: grid;
+  background-image: url(tent.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+.card3 {
+  background-image: url(map.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+.button1 {
+  background-color: black;
+  color: blanchedalmond;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button2 {
+  background-color: black;
+  color: blanchedalmond;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button3 {
+  background-color: black;
+  color: blanchedalmond;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+*/
+.cards {
+  border: solid yellow;
+
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 2fr;
+  background-color: white;
+  padding: 5px;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(6, 138, 6);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 14px 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cardmap {
+}
+#maincont {
+}
+#Linkmap {
+  text-align: center;
+
+  color: #ffff00;
+}
+.about-words {
+  background: rgb(11, 172, 33);
+
+  box-sizing: border-box;
+  margin: auto;
+
+  width: 60%;
+
+  border: 5px solid #ffff00;
+
+  padding: 10px;
+  text-align: center;
+}
+.aboutfoot {
+  color: rgb(238, 56, 56);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+}
