@@ -62,6 +62,9 @@
     font-weight: bold;
   }
   */
+body {
+  background-image: url(map.jpg);
+}
 .cards {
   border: solid yellow;
 
