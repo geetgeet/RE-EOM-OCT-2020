@@ -1,13 +1,51 @@
-body {
-  background-image: url("jed-villejo-bEcC0nyIp2g-unsplash.jpg");
+.home-words {
+  box-sizing: border-box;
+  margin: auto;
 
-  background-image: url(map.jpg);
+  width: 60%;
+
+  border: 5px solid #ffff00;
+
+  padding: 10px;
+  text-align: center;
+  font-size-adjust: 500px;
+}
+
+body {
+  background-image: url(abtg.jpg);
+
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
+a {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  top: auto;
+  flex-direction: row;
+  background-color: none;
+}
+.flex-cont > div {
+  border: 5px wheat;
+  height: 300px;
+  width: 250px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
 /*
   .card1 {
     border: 30px solid rgb(141, 87, 43) 20% round;
@@ -87,11 +125,8 @@ body {
 .card {
   display: grid;
   grid-template-rows: max-content 200px 2fr;
+  background-color: white;
   padding: 5px;
-}
-.p {
-  padding: 10px;
-  background-color: thistle;
 }
 
 .card img {
@@ -126,4 +161,37 @@ body {
 .topnav a.active {
   background-color: #4caf50;
   color: white;
+}
+
+.cardmap {
+}
+#maincont {
+}
+#Linkmap {
+  text-align: center;
+
+  color: #ffff00;
+}
+.about-words {
+  background: rgb(11, 172, 33);
+
+  box-sizing: border-box;
+  margin: auto;
+
+  width: 60%;
+
+  border: 5px solid #ffff00;
+
+  padding: 10px;
+  text-align: center;
+}
+.aboutfoot {
+  color: rgb(238, 56, 56);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
 }
