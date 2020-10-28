@@ -183,9 +183,7 @@ h3 {
   padding: 10px;
   text-align: center;
 }
-.aboutfoot {
-  color: rgb(238, 56, 56);
-
+.foot {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -193,3 +191,13 @@ h3 {
   text-align: center;
   background-color: yellow;
 }
+
+.submitb {
+  transition-duration: 0.4s;
+}
+
+.submitb:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+...;
