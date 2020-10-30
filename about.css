@@ -196,3 +196,21 @@ h3 {
   text-align: center;
   background-color: yellow;
 }
+.logo img {
+  float: left;
+  width: 100px;
+  width: 100px;
+  background: #555;
+}
+@media only screen and (max-width: 600px) {
+  .aboutfoot {
+    position: relative;
+  }
+  .topnav {
+    position: relative;
+  }
+  .body {
+    content: inherit;
+    background-color: lightblue;
+  }
+}

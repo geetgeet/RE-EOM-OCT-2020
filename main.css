@@ -194,3 +194,9 @@ h3 {
   text-align: center;
   background-color: yellow;
 }
+.logo img {
+  float: left;
+  width: 100px;
+  width: 100px;
+  background: #555;
+}

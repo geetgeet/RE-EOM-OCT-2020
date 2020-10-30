@@ -74,6 +74,7 @@ body {
   */
 .cards {
   border: solid yellow;
+  float: right;
 
   display: grid;
   grid-template-columns: 100px 100px 100px;
@@ -126,4 +127,37 @@ body {
 .topnav a.active {
   background-color: #4caf50;
   color: white;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin-top: -6px;
+  text-align: center;
+}
+.logo img {
+  size: 100px;
+  float: left;
+  width: 100px;
+  width: 100px;
+  background: #555;
+}
+@media only screen and (max-width: 600px) {
+  .body {
+    background-color: lightblue;
+  }
+  .cards {
+    border: solid yellow;
+  }
 }

@@ -200,4 +200,21 @@ h3 {
   background-color: #4caf50; /* Green */
   color: white;
 }
-...;
+
+.logo img {
+  float: left;
+  width: 100px;
+  width: 100px;
+  background: #555;
+}
+@media only screen and (max-width: 600px) {
+  .foot {
+    position: relative;
+  }
+  .topnav {
+ 
+      overflow: hidden;
+    }
+  }
+
+}
